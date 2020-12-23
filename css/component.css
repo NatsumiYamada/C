@@ -42,11 +42,11 @@ h1 span {
   }
   .modal_contents_wrap {
 	position: absolute;
-	top: 50%;
+	top: 40%;
 	left: 50%;
 	background-color: white;
 	width: 90%;
-	height: 55%;
+	height: 70%;
 	margin: auto;
 	transform: translate(-50%,-50%);
 	padding: 5px;
