@@ -49,7 +49,8 @@ h1 span {
 	height: 55%;
 	margin: auto;
 	transform: translate(-50%,-50%);
-	padding: 0px;
+	padding: 5px;
+	border: double 5px #eb1f1f;
   }
   
   /* ×ボタン */
@@ -84,11 +85,26 @@ h1 span {
 	height: auto;
 	padding-top: 5px;
   }
+  .message{
+	position: absolute;
+	top: 10%;
+	right: 0%;
+	bottom: 0%;
+	left: 0%;
+	margin: auto;
+  }
   .message p{
 	text-align: center;
-	margin: 0px;
-	font-size: 14px;
-	color:#000b2f;
+	margin:0px;
+	padding:1px;
+	text-size-adjust: 100%;
+	font-size: 16px;
+	color: #020022;
+  }
+  .message h2{
+	text-align: center;
+	color: #020022;
+	font-size: 20px;
   }
 /* モーダル終わり */
 
@@ -1225,8 +1241,7 @@ h1 span {
 
 @media screen and (max-width: 44em) {
 	.icons span.letter {
-		font-size: 20px;
-		line-height: 80px;
+		font-size: 30px;
 	}
 
 	.step-3 .icons span.letter, 
